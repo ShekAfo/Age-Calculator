@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="white">
+            AGE CALCULATOR
+        </h1>
+    </header>
+
+    <div class="main">
+        <button class="firstB white blue">CLICK TO START</button>
+    </div>
+
+    <div class="modal-outer">
+        <div class="modal-inner">
+            <form action="">
+                <p>Please fill this</p>
+                <input type="text" placeholder="Your Name:" class="pname" value="">
+                <input type="number" placeholder="Year of Birth:" class="dob" value="">
+                <input type="text" placeholder="Your Hobby:" class="hubby" value="">
+
+                <div class="sub-form">
+                    <button class="form-reset white blue">RESET</button>
+                    <button class="form-submit white blue">LET'S SEE</button>
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="submodal-inner hidden">
+            <div class="sub-inner">
+                <p class="name-output">Your name is:  </p>
+                <p class="age-output">You have live up </p>
+                <p class="hobby-output">Your hobby is </p>
+                <p class="msg">Hahaha you are too old, you have lived  </p>
+            </div>
+            <button class="backBtn white blue">BACK</button>
+        
+            
+        
+        </div>
+
+        
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

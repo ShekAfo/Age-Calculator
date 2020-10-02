@@ -1,0 +1,110 @@
+*{
+    border: 0;
+    margin: 0;
+}
+.header {
+    background-color: #4349D3;
+    text-align: center;
+    padding: 20px;
+}
+.white {
+    color: white;
+}
+.blue {
+    background-color: #4349D3;
+}
+
+.main {
+    width: 30%;
+    margin: auto;
+    height: 60px;
+    text-align: center;
+    margin-top: 18%;
+}
+.main .firstB{
+    height: 60px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+/* modal */
+
+.modal-outer {
+    top: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0,0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-outer.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-inner {
+    width: 50%;
+    margin: auto;
+    margin-top: 17%;
+    
+}
+
+.modal-inner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.modal-inner form * {
+    margin-bottom: 20px;
+    padding-top: 5px;
+    height: 30px;
+    border: 1px solid black;
+
+}
+.modal-outer .sub-form {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    border: none;
+}
+
+.submodal-inner {
+    width: 50%;
+    margin: auto;
+    margin-top: 17%;
+    background-color: white;
+    padding-left: 30px;
+    height:40% ;
+    padding-top: 20px;
+    border-radius: 10px;
+
+
+     
+}
+
+.submodal-inner > .sub-inner {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #4349D3;
+    height: 70%;
+    margin-right: 50px;
+}
+
+.submodal-inner > .sub-inner >*{
+    margin-bottom: 25px;
+}
+.submodal-inner .backBtn {
+    margin-top: 20px;
+    margin-left: 695px;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
